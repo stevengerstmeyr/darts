@@ -227,7 +227,24 @@
     </script>
     <!-- RESULT UPDATE -->
     <script>
-        document.getElementById("result").innerHTML = "RESULT RESULT";
+        const calculator = document.querySelector(‘.calc’)
+        const keys = calculator.querySelector(‘.calc’)
+
+            keys.addEventListener(‘click’, e => {
+                
+             if (e.target.matches(‘button’)) {
+                 const key = e.target
+                    const action = key.dataset.action
+                     if (!action) {
+                        document.getElementById("result").innerHTML = "number";
+                    }   
+                    if (
+                      action === 'subtract' 
+                    ) {
+                      document.getElementById("result").innerHTML = "-";
+                    }
+             }
+            })
     </script>
 </head>
 
