@@ -228,13 +228,12 @@
     <!-- RESULT UPDATE -->
     <script>
         const calculator = document.querySelector(‘.calc’)
-        const keys = calculator.querySelector(‘.calc’)
+        const keys = calculator.querySelector(‘.keys’)
 
             keys.addEventListener(‘click’, e => {
-                
              if (e.target.matches(‘button’)) {
                  const key = e.target
-                    const action = key.dataset.action
+                 const action = key.dataset.action
                      if (!action) {
                         document.getElementById("result").innerHTML = "number";
                     }   
@@ -275,7 +274,7 @@
                     <p>firstline</p>
                     <h3 id="result">result</h3>
                 </div>
-                <div class="numberblock">
+                <div class="keys">
                    <button class="fbuttons">1</button>
                    <button class="fbuttons">2</button>
                    <button class="fbuttons">3</button>
@@ -286,8 +285,6 @@
                    <button class="fbuttons">8</button>
                    <button class="fbuttons">9</button>
                    <button class="fbuttons">0</button>
-                </div>
-                <div class="actionblock">
                    <button class="fbuttons">NEW</button>
                    <button class="fbuttons">DEL</button>
                    <button class="fbuttons" data-action="subtract">-</button>
