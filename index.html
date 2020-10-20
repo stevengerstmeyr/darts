@@ -245,6 +245,11 @@
              }
             })
     </script>
+    <script>
+        function myFunction() {
+          document.getElementById("result").style.color = "red";
+        }
+    </script>
 </head>
 
 <body>
@@ -286,7 +291,7 @@
                    <button class="fbuttons">9</button>
                    <button class="fbuttons">0</button>
                    <button class="fbuttons">NEW</button>
-                   <button class="fbuttons">DEL</button>
+                   <button onclick="myFunction()" class="fbuttons">DEL</button>
                    <button onclick="getElementById('result').innerHTML = Date()">TIME</button>
                    <button class="fbuttons" data-action="subtract">-</button>
                 </div>
