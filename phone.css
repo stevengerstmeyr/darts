@@ -341,15 +341,18 @@ nav input {
 
 /*MAIN BODY*/
 .calc {
- width: 500px;
-    height:500px;
+    margin-top:25vh;
+ width: 50vh;
+    max-width:600px;
+    height:50vh;
+    max-height:800px;
     background: green;
     z-index: 200;
     position: ;
 }
 
 .display {
- width: 400px;
+    width: 400px;
     height:100px;
     background: blue;
     z-index: 201;
@@ -361,7 +364,7 @@ nav input {
 .main {
     position: relative;
     /*margin-top: 100vh;*/
-    height: 2500px;
+    height: 100vh;
     background: ;
     box-shadow: 0px 5px 5px 5px #E1e1e1;
     overflow: hidden;
