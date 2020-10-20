@@ -349,6 +349,7 @@ nav input {
     background: green;
     z-index: 200;
     position: ;
+    left: 50%;
 }
 
 .display {
