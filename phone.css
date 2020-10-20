@@ -341,19 +341,18 @@ nav input {
 
 /*MAIN BODY*/
 .calc {
- min-width: 200px;
-    min-height:200px;
+ width: 500px;
+    height:500px;
     background: green;
     z-index: 200;
-    position: centre;
+    position: ;
 }
 
 .display {
- min-width: 100px;
-    min-height:100px;
+ width: 400px;
+    height:100px;
     background: blue;
     z-index: 201;
-    position: centre;   
 }
 
 
